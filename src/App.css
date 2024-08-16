@@ -13,6 +13,11 @@
   }
 }
 
+.recipe-list {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the lists */
+  gap: 20px; /* Add some space between the lists */
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +27,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.h1 {
+  border-bottom: 2px solid #ff9100;
+  /* border-style: ; */
 }
 
 .App-link {
