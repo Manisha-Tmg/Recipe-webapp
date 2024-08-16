@@ -1,5 +1,7 @@
 import "./App.css";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -10,11 +12,21 @@ import recipe1 from "../src/Images/Sprout.jpg";
 import recipe2 from "../src/Images/Chicken.jpg";
 import recipe3 from "../src/Images/vegetable.jpg";
 import recipe4 from "../src/Images/Cake.jpeg";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <div>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/Home" element={<Home />} />
+            {/* <Route path="/Blog" element={<Blog />} /> */}
+            <Route path="/AboutUs" element={<AboutUs />} />
+          </Routes>
+        </Router>
+      </div>
       <Body />
       <h1 className="h1">Our Recipes</h1>
       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
@@ -28,6 +40,7 @@ function App() {
             difficulty="Easy"
             servings="2 persons"
           />
+
           <RecipeCard
             image={recipe2}
             title="Chicken Curry"
