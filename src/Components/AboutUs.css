@@ -2,17 +2,35 @@
   padding: 40px 20px;
   background: #fff;
   text-align: center;
+  /* display: flex; */
+}
+.about {
+  display: flex;
 }
 
 .about-us h2 {
   font-size: 2rem;
-  color: #4caf50;
+  color: #00712d;
   margin-bottom: 20px;
+  margin-left: 35px;
+  align-items: center;
 }
 
-.about-us p {
+.ptag {
   font-size: 1rem;
-  color: #666;
+  color: #000000;
   max-width: 600px;
-  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: 45px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 0;
+}
+.img {
+  margin-right: 45px;
+  margin-bottom: 0;
+  margin-top: 0px;
+  margin-left: 69px;
+  width: 400px;
+  height: 400px;
 }

@@ -6,15 +6,15 @@ import AboutUs from "./Components/AboutUs";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import RecipeCard from "./Components/RecipeCard";
-import Services from "./Components/Services";
+// import Services from "./Components/Services";
 import Body from "./Components/Body";
 import recipe1 from "../src/Images/Sprout.jpg";
 import recipe2 from "../src/Images/Chicken.jpg";
 import recipe3 from "../src/Images/vegetable.jpg";
 import recipe4 from "../src/Images/Cake.jpeg";
 import Home from "./Components/Home";
-import CuisineExolorer from "./Components/CuisineExolorer";
 import { Login } from "./Components/Login";
+// import Blog from "./Components/Blog";
 
 function App() {
   return (
@@ -74,10 +74,11 @@ function App() {
           />
         </div>
       </section>
-      <CuisineExolorer />
-      <Services />
+      {/* <Blog /> */}
       <AboutUs />
+
       <Footer />
+      {/* <Login /> */}
     </div>
   );
 }
