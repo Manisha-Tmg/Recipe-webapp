@@ -13,6 +13,8 @@ import recipe2 from "../src/Images/Chicken.jpg";
 import recipe3 from "../src/Images/vegetable.jpg";
 import recipe4 from "../src/Images/Cake.jpeg";
 import Home from "./Components/Home";
+import CuisineExolorer from "./Components/CuisineExolorer";
+import { Login } from "./Components/Login";
 
 function App() {
   return (
@@ -24,12 +26,16 @@ function App() {
             <Route path="/Home" element={<Home />} />
             {/* <Route path="/Blog" element={<Blog />} /> */}
             <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/Login" element={<Login />} />
           </Routes>
         </Router>
       </div>
       <Body />
-      <h1 className="h1">Our Recipes</h1>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+      <h2 className="h2">Popular Recipes You Can't Miss</h2>
+      <p className="p">
+        From comfort food classics to exotic flavours, our featured
+      </p>
+      <p className="p"> recipes are sure to impress.</p>
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard
@@ -67,41 +73,8 @@ function App() {
             servings="2 persons"
           />
         </div>
-        <div className="recipe-list">
-          <RecipeCard
-            image={recipe1}
-            title="Sprout Salad "
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe2}
-            title="Chicken Curry"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe3}
-            title="Vegetable Salad"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-          <RecipeCard
-            image={recipe4}
-            title="Chocolate Cake"
-            description="Search 2 million recipes using keywords, 28 nutrients and 40 diet and health filters."
-            time="20 mins"
-            difficulty="Easy"
-            servings="2 persons"
-          />
-        </div>
       </section>
+      <CuisineExolorer />
       <Services />
       <AboutUs />
       <Footer />
