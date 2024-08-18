@@ -2,35 +2,52 @@
   padding: 40px 20px;
   background: #fff;
   text-align: center;
-  /* display: flex; */
 }
 .about {
   display: flex;
 }
+.us {
+  text-align: justify;
+}
 
-.about-us h2 {
-  font-size: 2rem;
+.h1 {
+  font-size: 3rem;
   color: #00712d;
   margin-bottom: 20px;
   margin-left: 35px;
-  align-items: center;
+  /* text-align: justify; */
+  margin-left: 45px;
 }
 
 .ptag {
   font-size: 1rem;
   color: #000000;
   max-width: 600px;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-left: 45px;
-  justify-content: center;
-  display: flex;
+  row-gap: 0%;
   margin-bottom: 0;
+  text-align: justify;
+  display: inline-flex;
 }
 .img {
-  margin-right: 45px;
-  margin-bottom: 0;
-  margin-top: 0px;
-  margin-left: 69px;
-  width: 400px;
-  height: 400px;
+  gap: 2px;
+  position: relative;
+  object-fit: contain;
+  /* border: 1px solid #00712d; */
+  display: inline-flex;
+  margin-right: 15px;
+  margin-bottom: 40;
+  margin-top: 30px;
+  margin-left: 110px;
+  width: 650px;
+  height: 510px;
+  padding: 0px;
+  vertical-align: middle;
+  /* border-radius: 50%; */
+}
+.h {
+  display: inline;
+  color: #ff9100;
+  font-size: 3rem;
 }

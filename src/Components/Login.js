@@ -33,34 +33,28 @@ export const Login = () => {
   };
 
   return (
-    <div className=".form-content">
-      <form onSubmit={handleSubmit}>
-        <div className="mb-3">
-          <label htmlFor="exampleInputEmail1" className="form-label">
-            Email address
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
-          <div id="emailHelp" className="form-text">
-            We'll never share your email with anyone else.
-          </div>
-        </div>
-        <div className="mb-3">
-          <label htmlFor="exampleInputPassword1" className="form-label">
+    <form className="form">
+      <h2>LOGIN</h2>
+      {/* <img className="image" src={photo}></img> */}
+      <div className="mb-3">
+        <label for="exampleInputEmail1" className="form-label">
+          Email address
+        </label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">
             Password
           </label>
           <input
             type="password"
-            className="form-control"
+            class="form-control"
             id="exampleInputPassword1"
-            onChange={(e) => setPassword(e.target.value)}
-            value={password}
           />
         </div>
         <div className="mb-3 form-check">
@@ -69,14 +63,20 @@ export const Login = () => {
             className="form-check-input"
             id="exampleCheck1"
           />
-          <label className="form-check-label" htmlFor="exampleCheck1">
-            Check me out
+          <label className="form-check-label" for="exampleCheck1">
+            Remenber Me
+            <label className="form-check-label" for="exampleCheck1">
+              Forgot password
+            </label>
           </label>
         </div>
-        <button type="submit" className="btn btn-primary">
-          Submit
+        <button type="submit" className="btn">
+          Login
         </button>
-      </form>
-    </div>
+        <label className=" account" for="exampleCheck1">
+          Don't have an account? <p className="sign">Sign Up</p>{" "}
+        </label>
+      </div>
+    </form>
   );
 };

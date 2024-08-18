@@ -75,7 +75,7 @@ function App() {
         </div>
       </section>
       {/* <Blog /> */}
-      <AboutUs />
+      {/* <AboutUs /> */}
 
       <Footer />
       {/* <Login /> */}
