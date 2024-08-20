@@ -1,5 +1,5 @@
 import React from "react";
-import food1 from "../Images/Japan.jpg";
+import food1 from "../Images/pexels-xmtnguyen-699953.jpg";
 import food2 from "../Images/Mexican.jpg";
 import food3 from "../Images/Chinese.jpeg";
 
