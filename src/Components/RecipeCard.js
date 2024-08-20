@@ -12,6 +12,7 @@ function RecipeCard({ image, title, description, time, difficulty, servings }) {
         <span>{difficulty}</span>
         <span>{servings}</span>
       </div>
+
       <button className="button">See Full Details</button>
     </div>
   );

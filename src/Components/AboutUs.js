@@ -1,12 +1,13 @@
 import React from "react";
 import "./AboutUs.css";
 import img from "../Images/image 21.png";
+import Navbar from "./Navbar";
 
 function AboutUs() {
   return (
     <section className="about-us">
       <h1 className="h1">
-        About <h1 className="h">Us</h1>
+        About <p className="h">Us</p>
       </h1>
       <div className="about">
         <p className="ptag">

@@ -3,6 +3,9 @@
   /* margin-bottom: 20px; */
   /* max-width: 100%; */
   background-color: #f5eace;
+  /* background-image: url(../Images/Imange.jpg); */
+
+  background-size: cover;
   /* max-height: 550px; */
   /* background-repeat: no-repeat;/ */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -15,13 +18,11 @@
   margin-left: 160px;
 }
 .hero-text h2 {
-  font-size: 30px;
+  font-size: 45px;
+  display: inline;
   color: #00712d;
   font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin-left: 120px;
-  margin-right: 0;
+  margin: 50px 0px 20px 120px; /*top,right,bottom.left*/
   display: flex;
   align-items: center;
   justify-content: space-evenly;

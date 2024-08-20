@@ -13,12 +13,12 @@
   }
 }
 
-.recipe-list {
+/* .recipe-list {
   display: flex;
   justify-content: space-between; /* Distribute space between the lists */
-  gap: 20px; /* Add some space between the lists */
-}
-.App-header {
+/* gap: 20px; /* Add some space between the lists */
+/* }  */
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,19 +27,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-.h2 {
+} */
+/* .h2 {
   font-size: 30px;
   position: relative;
   margin-top: 25px;
   margin-bottom: 10px;
   color: #00712d;
   /* text-decoration: underline #00s712d; */
-}
-.p {
-  font-size: 14px;
-  color: #0f0f0f;
-}
+/* }  */
+/* .p { */
+/* font-size: 14px; */
+/* color: #0f0f0f; */
+/* }  */
 
 .App-link {
   color: #61dafb;
