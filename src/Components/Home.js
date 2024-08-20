@@ -2,14 +2,14 @@ import React from "react";
 import Body from "./Body";
 import Services from "./Services";
 import Recipe from "./Recipe";
-import Featuredpost from "./Featuredpost";
+// import Featuredpost from "./Featuredpost";
 
 const Home = () => {
   return (
     <div>
       <Body />
       <Recipe />
-      <Featuredpost />
+      {/* <Featuredpost /> */}
       <Services />
     </div>
   );

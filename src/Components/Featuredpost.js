@@ -7,11 +7,20 @@ import "./Featuredpost.css";
 const Featuredpost = () => {
   return (
     <div className="main">
-      <h2 className="h0"> Featured posts</h2>{" "}
-      <div className="food">
+      <div className="Food1">
+        <h2 className="h0"> Featured posts</h2>{" "}
+        <div className="food">
+          <img src={food2} alt=""></img>
+          <img src={food3} alt=""></img>
+        </div>{" "}
+      </div>
+
+      <div className="Food1">
         <img src={food1} alt=""></img>
-        <img src={food2} alt=""></img>
-        <img src={food3} alt=""></img>
+        <h3 className="h9">
+          Healthy Breakfast Ideas When There's No Time To Eat
+        </h3>{" "}
+        <p className="date">On 30 October 2021</p>
       </div>
     </div>
   );
