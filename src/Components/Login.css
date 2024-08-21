@@ -1,26 +1,24 @@
 /* Body styling for background */
-
-.form-login {
-}
 body {
   /* background-image: url(../Images/background.jpg); */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  background-position: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-left: 650px;
+  height: 100vh; /* Ensure the body takes up full screen height */
+  margin: 0;
+  padding: 0;
 }
 
 /* Form container styling */
 form {
   background: #fff;
-  padding: 40px;
+  padding: 40px; /* Ensure consistent padding */
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  width: 600px;
+  max-width: 300px;
+  width: 1000%;
+  margin: 0;
 }
 
 /* Form labels */
@@ -29,8 +27,7 @@ form {
   margin-bottom: 10px;
   display: block;
   color: #333;
-  text-align: justify;
-  font-weight: bold;
+  text-align: left; /* Align text to the left for better readability */
 }
 
 /* Input fields */
@@ -38,7 +35,6 @@ form {
   width: 90%;
   padding: 12px 15px;
   margin-bottom: 20px;
-
   border: 2px solid #4caf50;
   border-radius: 5px;
   font-size: 14px;
@@ -49,7 +45,7 @@ form {
 .form-control:focus {
   border-color: #00712d;
   /* outline: none; */
-  box-shadow: 0 0 5px #00712d(106, 17, 203, 0.5);
+  box-shadow: 0 0 5px rgba(0, 113, 45, 0.5); /* Corrected box-shadow color */
 }
 
 /* Help text */
@@ -62,21 +58,18 @@ form {
 
 /* Checkbox */
 .form-check-input {
-  /* margin-right: 10px; */
-  text-align: right justify;
+  /* Adjust margin and alignment as needed */
 }
 
 .form-check-label {
   font-size: 14px;
   color: #00712d;
   display: inline;
-  /* gap: 1px; */
 }
 
 /* Submit button */
 .btn1 {
   background: #4caf50;
-  margin-top: 15px;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -85,31 +78,30 @@ form {
   width: 100%;
   font-size: 16px;
   font-weight: 600;
+  margin-top: 15px;
   margin-bottom: 12px;
 }
 
+/* Account link styling */
 .account {
-  align-items: center;
-  text-align: justify;
-  display: inline;
-  gap: 8px;
+  text-align: center;
   margin-top: 15px;
-  margin-left: 10px;
+  /* display: inline */
 }
+
 .sign {
-  display: flex;
-  align-items: center;
-  text-align: justify;
   color: #00712d;
-  margin-top: 16px;
-  display: inline;
   text-decoration: underline;
+  display: inline;
 }
 
+/* Heading styling */
 .h-2 {
+  margin-top: 5px;
   color: #00712d;
 }
 
+/* Image alignment */
 .image {
-  margin-left: 615px;
+  display: none; /* Hidden as it's not necessary in this context */
 }
