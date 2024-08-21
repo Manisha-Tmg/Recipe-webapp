@@ -16,15 +16,13 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Blog" element={<Blog />} />
             <Route path="/AboutUs" element={<AboutUs />} />
-            {/* <Route path="/Login" element={<Login />} /> */}
+            <Route path="/AddRecipe" element={<AddRecipe />} />
           </Routes>
         </Router>
       </div>
-      <Home />
-      <AddRecipe />
       <Footer />
     </div>
   );

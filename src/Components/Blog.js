@@ -3,6 +3,7 @@ import post1 from "../Images/strawberry.jpg";
 import post2 from "../Images/Pastaa.jpeg";
 import post3 from "../Images/baked.jpeg";
 import "./Blog.css";
+import Footer from "./Footer";
 
 const Blog = () => {
   return (
@@ -24,7 +25,8 @@ const Blog = () => {
           <h3>How to make the best baked sweet potatoes</h3>
           <p>Start your part of the day with this tasty recipe.</p>
         </div>
-      </div>
+      </div>{" "}
+      <Footer />{" "}
     </div>
   );
 };

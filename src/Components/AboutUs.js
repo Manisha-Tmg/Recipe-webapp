@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
 import img from "../Images/image 21.png";
-import Navbar from "./Navbar";
 
 function AboutUs() {
   return (
