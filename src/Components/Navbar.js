@@ -23,6 +23,9 @@ const Navbar = () => {
           <Link to="/recipes">Recipes</Link>
         </li>
         <li>
+          <Link to="/AddRecipe">Add Recipe</Link>
+        </li>
+        <li>
           <Link to="/aboutus">About Us</Link>
         </li>
       </ul>

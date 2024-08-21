@@ -1,0 +1,35 @@
+.formm {
+  display: grid;
+  text-align: justify;
+  margin: 45px 55px 55px 55px;
+}
+.recipee {
+}
+input {
+  margin: 15px 55px 15px 55px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+  border: 1.5px solid #ff9100;
+  grid-row: 77px;
+}
+.h22 {
+  text-align: justify;
+  font-size: 25px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #00712d;
+  font-weight: bold;
+}
+
+.time {
+  display: inline;
+}
+/* .h2:hover {
+  color: #ff9100;
+} */
+
+input:hover {
+  color: #00712d;
+}
