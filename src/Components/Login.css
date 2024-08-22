@@ -1,6 +1,5 @@
 /* Body styling for background */
 body {
-  /* background-image: url(../Images/background.jpg); */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
@@ -13,28 +12,33 @@ body {
 /* Form container styling */
 form {
   background: #fff;
-  padding: 40px; /* Ensure consistent padding */
+  padding: 30px 30px 30px 30px; /* Ensure consistent padding */
+
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  width: 1000%;
-  margin: 0;
+  max-width: 500px;
+  width: 100%;
+
+  margin-right: 10px;
 }
 
 /* Form labels */
 .form-label {
   font-weight: 600;
-  margin-bottom: 10px;
+  margin: 15px 20px 0 24px;
+
   display: block;
   color: #333;
-  text-align: left; /* Align text to the left for better readability */
+  text-align: justify; /* Align text to the left for better readability */
 }
 
 /* Input fields */
 .form-control {
   width: 90%;
   padding: 12px 15px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px;
+  margin-left: 15px; */
+  margin: 15px 20px 12px 20px;
   border: 2px solid #4caf50;
   border-radius: 5px;
   font-size: 14px;
@@ -52,8 +56,6 @@ form {
 .form-text {
   font-size: 12px;
   color: #777;
-  margin-top: -15px;
-  margin-bottom: 20px;
 }
 
 /* Checkbox */
@@ -75,11 +77,10 @@ form {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   font-size: 16px;
   font-weight: 600;
-  margin-top: 15px;
-  margin-bottom: 12px;
+  margin: 15px 20px 12px 20px;
 }
 
 /* Account link styling */
@@ -97,7 +98,7 @@ form {
 
 /* Heading styling */
 .h-2 {
-  margin-top: 5px;
+  margin-bottom: 15px;
   color: #00712d;
 }
 
