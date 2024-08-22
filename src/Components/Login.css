@@ -16,9 +16,8 @@ form {
 
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
-
   margin-right: 10px;
 }
 
@@ -36,8 +35,7 @@ form {
 .form-control {
   width: 90%;
   padding: 12px 15px;
-  /* margin-bottom: 20px;
-  margin-left: 15px; */
+
   margin: 15px 20px 12px 20px;
   border: 2px solid #4caf50;
   border-radius: 5px;
@@ -58,15 +56,18 @@ form {
   color: #777;
 }
 
-/* Checkbox */
-.form-check-input {
-  /* Adjust margin and alignment as needed */
-}
-
-.form-check-label {
+/* .form-check-label {
   font-size: 14px;
   color: #00712d;
-  display: inline;
+} */
+
+.remember-forgot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 18px;
+}
+#forgot {
+  color: #00712d;
 }
 
 /* Submit button */
@@ -87,19 +88,21 @@ form {
 .account {
   text-align: center;
   margin-top: 15px;
-  /* display: inline */
+  margin-left: 25px;
 }
 
 .sign {
   color: #00712d;
   text-decoration: underline;
   display: inline;
+  /* margin-left: 65px; */
 }
 
 /* Heading styling */
 .h-2 {
   margin-bottom: 15px;
   color: #00712d;
+  text-align: center;
 }
 
 /* Image alignment */
