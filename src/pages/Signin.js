@@ -1,13 +1,21 @@
 import React from "react";
-import "./Login.css";
 import { Link } from "react-router-dom";
-// import photo from "../Images/image 21.png";
-
-const Login = () => {
+import "./Signin.css";
+const Signin = () => {
   return (
-    <form className="form-login">
-      <h2 className="h-2">LOGIN</h2>
-      <div className="mb-3">
+    <form className="form-sign">
+      <h2 className="h-22">Sign up</h2>
+
+      <div className="m-3">
+        <label for="exampleInputEmail1" className="form-label">
+          Username{" "}
+        </label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
         <label for="exampleInputEmail1" className="form-label">
           Email address
         </label>
@@ -18,7 +26,7 @@ const Login = () => {
           aria-describedby="emailHelp"
         />
 
-        <div class="mb-3">
+        <div class="m-3">
           <label for="exampleInputPassword1" class="form-label">
             Password
           </label>
@@ -29,17 +37,17 @@ const Login = () => {
           />
         </div>
         <div className="remember-forgot">
-          <Link id="forgot" to={"#"}>
+          <Link id="forgot1" to={"#"}>
             Forgot Password?
           </Link>
         </div>
-        <button type="submit" className="btn1">
-          Login
+        <button type="submit" className="btn11">
+          Signup
         </button>
-        <label className=" account" for="exampleCheck1">
-          Don't have an account?{" "}
-          <Link to={"/register"} className="sign">
-            Sign Up
+        <label className=" account1" for="exampleCheck1">
+          Already have an account?{" "}
+          <Link to={"/Login"} className="log">
+            Login
           </Link>{" "}
         </label>
       </div>
@@ -47,4 +55,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signin;

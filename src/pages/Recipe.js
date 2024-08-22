@@ -4,7 +4,7 @@ import recipe1 from "../Images/Sprout.jpg";
 import recipe2 from "../Images/Chicken.jpg";
 import recipe3 from "../Images/vegetable.jpg";
 import recipe4 from "../Images/Cake.jpeg";
-import RecipeCard from "./RecipeCard";
+import RecipeCard from "../Components/RecipeCard";
 
 const Recipe = () => {
   return (

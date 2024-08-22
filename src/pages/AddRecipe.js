@@ -1,6 +1,6 @@
 import React from "react";
 import "./AddRecipe.css";
-import NavbarRecipe from "./NavbarRecipe";
+import NavbarRecipe from "../Components/NavbarRecipe";
 
 const AddRecipe = () => {
   return (

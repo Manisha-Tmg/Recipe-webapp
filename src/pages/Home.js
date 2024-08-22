@@ -1,7 +1,7 @@
 import React from "react";
-import Body from "./Body";
-import Services from "./Services";
-import Recipe from "./Recipe";
+import Body from "../pages/Body";
+import Services from "../pages/Services";
+import Recipe from "../pages/Recipe";
 
 const Home = () => {
   return (
