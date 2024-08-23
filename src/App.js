@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import AddRecipe from "./pages/AddRecipe";
-import Signin from "./pages/Signin";
+// import Signin from "./pages/Signin";
 function App() {
   return (
     <div className="App">
@@ -21,7 +21,7 @@ function App() {
             <Route path="/Blog" element={<Blog />} />
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/AddRecipe" element={<AddRecipe />} />
-            <Route path="/Add" element={<Signin />} />
+            {/* <Route path="/Add" element={<Signin />} /> */}
           </Routes>
         </Router>
       </div>
