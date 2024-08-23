@@ -12,10 +12,10 @@ const Recipe = () => {
     <div>
       {" "}
       <p className="h2">Popular Recipes You Can't Miss</p>
-      <p className="p">
+      <p className="pe">
         From comfort food classics to exotic flavours, our featured
       </p>
-      <p className="p"> recipes are sure to impress.</p>
+      <p className="pe1"> recipes are sure to impress.</p>
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard

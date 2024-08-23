@@ -2,15 +2,22 @@
   justify-content: center;
   font-size: 30px;
   position: relative;
-  margin-left: 255px;
+  margin-left: 415px;
   margin-top: 25px;
   margin-bottom: 10px;
   color: #00712d;
+  font-weight: bold;
   /* text-decoration: underline #00s712d; */
 }
-/* .p {
+.pe {
   font-size: 14px;
   color: #0f0f0f;
-  margin-left: 255px;
-  display: in;
-} */
+  margin-left: 460px;
+  text-align: justify;
+}
+.pe1 {
+  font-size: 14px;
+  color: #0f0f0f;
+  margin-left: 565px;
+  text-align: justify;
+}

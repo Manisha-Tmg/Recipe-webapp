@@ -1,34 +1,28 @@
 .hero-section {
   display: flex;
-
   background-color: #f5eace;
-
-  /* background-size: cover; */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .hero-image {
   width: 50%;
-  height: 400px;
+  height: 350px;
   display: flex;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 .hero-text h2 {
-  font-size: 35px;
-  /* display: inline-flex; */
+  font-size: 2.7rem;
   color: #00712d;
   font-weight: bold;
-  margin: 50px 0px 10px 130px; /*top,right,bottom.left*/
+  margin: 50px 0px 10px 100px; /*top,right,bottom.left*/
   align-items: center;
   text-align: justify;
 }
 
 .highlight {
-  margin: 50px 0px 10px 130px; /*top,right,bottom.left*/
-
-  font-size: 1.5rem;
+  margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
+  font-size: 1.94rem;
   color: #00712d;
-  margin-bottom: 20px;
+  /* text-align: justify; */
   display: flex;
   align-items: center;
   gap: 5px;
@@ -42,25 +36,24 @@
 }
 
 .hero-text p {
-  margin-top: 5px;
-  margin-bottom: 20px;
-  margin-left: 120px;
-  margin-right: 0;
-  font-size: 1.2rem;
+  margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
+  font-size: 1rem;
   margin-bottom: 20px;
   color: #666;
-  justify-content: center;
+  text-align: justify;
+  padding-right: 145px;
 }
 
 .hero-section button {
-  padding: 10px 20px;
+  padding: 15px 15px 15px 15px;
   background: #4caf50;
   color: white;
   border: none;
   font-size: 1rem;
   cursor: pointer;
-  border-radius: 8px;
-  margin-left: 115px;
+  font-weight: bold;
+  border-radius: 9px;
+  margin: 10px 0px 10px 100px; /*top,right,bottom.left*/
 }
 
 .hero-section button:hover {
