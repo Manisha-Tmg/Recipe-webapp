@@ -6,16 +6,13 @@ import recipe2 from "../Images/Chicken.jpg";
 import recipe3 from "../Images/vegetable.jpg";
 import recipe4 from "../Images/Cake.jpeg";
 import RecipeCard from "../Components/RecipeCard";
+import NavbarRecipe1 from "../Components/NavbarRecipe1";
 
 const Recipe = () => {
   return (
     <div>
       {" "}
-      {/* <p className="h2">Popular Recipes You Can't Miss</p>
-      <p className="pe">
-        From comfort food classics to exotic flavours, our featured
-      </p>
-      <p className="pe1"> recipes are sure to impress.</p>  */}
+      <NavbarRecipe1 />
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard

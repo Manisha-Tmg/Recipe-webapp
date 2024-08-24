@@ -10,14 +10,15 @@ const AddRecipe = () => {
         <div className="formm">
           <label className="recipee">Recipe Title:</label>
           <img className="cake" src="" alt="Cake.jpeg"></img>
-          <input type="text"></input>
+          <input className="input1" type="text"></input>
           <label className="des">Description:</label>
-          <input type="text"></input>
+          <input className="input1" type="text"></input>
           <label>Ingredients:</label>
-          <input></input> <input type=""></input>
+          <input className="input1"></input>{" "}
+          <input className="input1" type=""></input>
           <p className="pa">+Add</p>
           <label>Instructions:</label>
-          <input></input>
+          <input className="input1"></input>
           <label>Cooking Time:</label>
           <div className="cook">
             {" "}

@@ -33,7 +33,8 @@ input:hover {
 }
 
 .cook {
-  margin-right: 45px;
+  margin-left: 0;
+  /* margin-right: 45px; */
   width: 63%;
   display: flex;
   margin-top: 5px;
