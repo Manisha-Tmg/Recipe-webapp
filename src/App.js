@@ -7,8 +7,10 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
+// import Signin from "./pages/Signin";
 import AddRecipe from "./pages/AddRecipe";
 import Recipes from "./pages/Recipes";
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +24,7 @@ function App() {
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/AddRecipe" element={<AddRecipe />} />
             <Route path="/Recipes" element={<Recipes />} />
-            {/* <Route path="/Add" element={<Signin />} /> */}
+            {/* <Route path="/signin" element={<Signin />} /> */}
           </Routes>
         </Router>
       </div>

@@ -6,13 +6,11 @@ import recipe2 from "../Images/Chicken.jpg";
 import recipe3 from "../Images/vegetable.jpg";
 import recipe4 from "../Images/Cake.jpeg";
 import RecipeCard from "../Components/RecipeCard";
-import NavbarRecipe1 from "../Components/NavbarRecipe1";
 
 const Recipe = () => {
   return (
     <div>
       {" "}
-      <NavbarRecipe1 />
       <section className="recipe-list1">
         <div className="recipe-list">
           <RecipeCard
