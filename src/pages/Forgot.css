@@ -97,7 +97,10 @@ form {
   display: inline;
   /* margin-left: 65px; */
 }
-
+.enter {
+  text-align: justify;
+  margin: 15px 20px 12px 20px;
+}
 /* Heading styling */
 .h-2 {
   margin-bottom: 15px;
