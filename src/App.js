@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import AddRecipe from "./pages/AddRecipe";
 import Recipes from "./pages/Recipes";
 import Forgotpass from "./pages/Forgotpass";
+import Resetpass1 from "./pages/Resetpass1";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/AddRecipe" element={<AddRecipe />} />
             <Route path="/Recipes" element={<Recipes />} />
             <Route path="/Signin" element={<Forgotpass />} />
+            <Route path="/Signinn" element={<Resetpass1 />} />
           </Routes>
         </Router>
       </div>
