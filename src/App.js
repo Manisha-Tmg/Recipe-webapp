@@ -6,9 +6,9 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
-// import Signin from "./pages/Signin";
 import AddRecipe from "./pages/AddRecipe";
 import Recipes from "./pages/Recipes";
+import Forgotpass from "./pages/Forgotpass";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/AddRecipe" element={<AddRecipe />} />
             <Route path="/Recipes" element={<Recipes />} />
-            {/* <Route path="/signin" element={<Signin />} /> */}
+            <Route path="/Signin" element={<Forgotpass />} />
           </Routes>
         </Router>
       </div>
