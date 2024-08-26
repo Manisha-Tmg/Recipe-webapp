@@ -6,16 +6,16 @@ const Forgotpass = () => {
     <div>
       <form className="form-login">
         <h2 className="h-2">Forgot Password</h2>
-        <h4>
+        <p>
           Enter your phone number below to receive your password reset
           instructions.
-        </h4>
+        </p>
         <div className="mb-3">
           <label for="exampleInputEmail1" className="form-label">
-            Email address
+            Phone Number
           </label>
           <input
-            type="email"
+            type="Numbers"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -32,7 +32,7 @@ const Forgotpass = () => {
             />
           </div>
           <button type="submit" className="btn1">
-            Login
+            Recover Password
           </button>
         </div>
       </form>
